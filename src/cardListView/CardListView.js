@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
@@ -15,6 +15,7 @@ const styles = theme => ({
         width:250,
         height: 250,
         marginLeft: 35,
+        marginRight: 35,
         marginTop: 5,
     },
 });
@@ -26,34 +27,37 @@ function CenteredGrid(props) {
         <div className={classes.root}>
             <Grid container spacing={24}>
                 <Grid item xs={3}>
-                    <Paper className={classes.paper}>עגבניה</Paper>
+                    <Paper className={classes.paper}>Tomato</Paper>
                 </Grid>
                 <Grid item xs={3}>
-                    <Paper className={classes.paper}>מלפפון</Paper>
+                    <Paper className={classes.paper}>Cucumber</Paper>
                 </Grid>
                 <Grid item xs={3}>
-                    <Paper className={classes.paper}>חסה</Paper>
+                    <Paper className={classes.paper}>Salad</Paper>
                 </Grid>
                 <Grid item xs={3}>
-                    <Paper className={classes.paper}>עגבניה</Paper>
+                    <Paper className={classes.paper}>Tomato</Paper>
                 </Grid>
                 <Grid item xs={3}>
-                    <Paper className={classes.paper}>עגבניה</Paper>
+                    <Paper className={classes.paper}>Salad</Paper>
                 </Grid>
                 <Grid item xs={3}>
-                    <Paper className={classes.paper}>מלפפון</Paper>
+                    <Paper className={classes.paper}>Tomato</Paper>
                 </Grid>
                 <Grid item xs={3}>
-                    <Paper className={classes.paper}>חסה</Paper>
+                    <Paper className={classes.paper}>Cucumber</Paper>
                 </Grid>
                 <Grid item xs={3}>
-                    <Paper className={classes.paper}>מלפפון</Paper>
+                    <Paper className={classes.paper}>Salad</Paper>
                 </Grid>
                 <Grid item xs={3}>
-                    <Paper className={classes.paper}>חסה</Paper>
+                    <Paper className={classes.paper}>Cucumber</Paper>
                 </Grid>
                 <Grid item xs={3}>
-                    <Paper className={classes.paper}>חסה</Paper>
+                    <Paper className={classes.paper}>Salad</Paper>
+                </Grid>
+                <Grid item xs={3}>
+                    <Paper className={classes.paper}>Tomato</Paper>
                 </Grid>
             </Grid>
         </div>
